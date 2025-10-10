@@ -1,0 +1,77 @@
+# Node & npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+out/
+release/
+*.tgz
+
+# Electron specific
+# (temporary build outputs, compiled native modules, packaged apps)
+app/dist/
+app/build/
+electron-builder.yml
+*.asar
+*.asar.unpacked/
+*.icns
+*.exe
+*.dmg
+*.AppImage
+*.snap
+*.deb
+*.rpm
+
+# Environment files
+.env
+.env.*.local
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Tests & coverage
+coverage/
+.nyc_output/
+
+# Misc caches
+.cache/
+.tmp/
+temp/
+.eslintcache
+stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional Electron packaging tools
+# (uncomment if you use them)
+# dist_electron/
+# electron-out/
+# .webpack/
+
+# Sentry or crash reports
+*.map
+*.stackdump
+
+src/data/
