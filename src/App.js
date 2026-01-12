@@ -2,10 +2,6 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
 
 import GoalList from './GoalList';
 import NewGoalForm from './NewGoalForm';
@@ -36,14 +32,16 @@ function App() {
   const [filters, setFilters] = useState({
     status: { complete: true, incomplete: true },
     category: {
-      wedding: true,
       car: true,
-      finance: true,
-      travel: true,
       dog: true,
+      finance: true,
       health: true,
+      household: true,
       other: true,
       projects: true,
+      social: true,
+      travel: true,
+      wedding: true,
       work: true
     },
     search: '',
